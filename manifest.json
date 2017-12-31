@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook Link Fix",
+  "version": "1.0",
+
+  "description": "Fixes facebook links not to redirect.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*", "*://*.messenger.com/*"],
+      "js": ["linkfix.js"]
+    }
+  ]
+
+}
