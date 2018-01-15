@@ -1,3 +1,5 @@
+Don't use this, see the Issues.
+
 Currently, any link on facebook has the href `https://l.facebook.com/u=LINK` rather than just `LINK`.
 This is a WebExtension which fixes these links.
 
